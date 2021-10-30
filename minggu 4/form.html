@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <tittle>FORMULIR PPDB JALUR ZONASI TAHUN 2020</tittle>
+</head>
+
+<body>
+    <h2> <p style="text-align:center;">FORMULIR PPDB JALUR ZONASI TAHUN 2020 </p> </h2>
+    <form action="proses.php" method="post">
+    <left><table border="1">
+     <tr>
+       <td><center><b>NO</b></center></td>
+       <td><center><b>INFO PENDAFTARAN</b></center></td>   
+    </tr>
+    <tr>
+        <td><center>1</center></td>
+        <td> <label for="fnisn">NISN</label> </td>
+        <td> <input type="text" id="fnisn" nisn="fnisn"><br> </td>
+    </tr>
+    <tr>
+       <td><center>2</center></td>
+        <td> <label for="fnim">Asal Sekolah</label> </td>
+        <td> <input type="text" id="fasal" asalsekolah="fasal"><br> </td>
+    </tr>
+    <tr>
+        <td><center>3</center></td>
+        <td> <label for="ftahun">Tahun Lulus</label> </td>
+        <td> <input type="text" id="ftahun" tahunlulus="tahun"><br> </td>
+    </tr>
+    <tr>
+        <td><center><b>DATA CALON PESERTA</b></center></td>   
+    </tr>
+    <tr>
+        <td><center>4</center></td>
+        <td> <label for="fnama">Nama Lengkap</label> </td>
+        <td> <input type="text" id="fnama" namalengkap="fnama"><br> </td>
+    </tr>
+    <tr>
+        <td><center>5</center></td>
+        <td> <label for="fnik">NIK</label> </td>
+        <td> <input type="text" id="nik" NIK="fnik"><br> </td>
+    </tr>
+    <tr>
+        <td><center>6</center></td>
+        <td> <label for="fttl">Tempat, Tanggal Lahir</label> </td>
+        <td> <input type="text" id="ftempat" tempat="ftempat"><br> </td>
+        <td> <input type="date" name="tanggal" /> <br> </td>
+    </tr>
+    <tr>
+        <td><center>7</center></td>
+        <td> <label for="fgender">Jenis Kelamin</label> </td>
+        <td> <label><input type="radio" name="gender" value="laki-laki" /> Laki - Laki </label> <br> </td>
+        <td> <label><input type="radio" name="gender" value="perempuan" /> Perempuan </label> <br> </td>
+    </tr>
+    <tr>
+        <td><center>8</center></td>
+        <td> <label for="alamat">Alamat</label> </td>
+        <td> <textarea name="alamat" cols="30" rows="5"> </textarea> </td>   
+    </tr>
+    <tr>
+        <td><center>9</center></td>
+        <td> <label for="fkel">Desa/Kel.</label> </td>
+        <td> <select name="kel">
+            <option value="pudakpayung">Pudak Payung </option>
+            <option value="gedawaang">Gedawang</option>
+            <option value="padangsari">Padangsari </option>
+            <option value="jabungan">Jabungan </option>
+            <option value="banyumanik">Banyumanik </option>
+            <option value="srondol">Srondol Wetan </option>
+            <option value="pedalangan">Pedalangan </option>
+            <option value="Sumurboto">Sumurboto </option>
+            <option value="Srondol Kulon">Srondol Kulon </option>
+            <option value="Tinjomoyo">Tinjomoyo </option>
+            <option value="Ngesrep">Ngesrep </option>
+    </tr>
+    <tr>
+        <td><center>10</center></td>
+        <td> <label for="fkec">Kecamatan</label> </td>
+        <td> <select name="kec">
+            <option value="Candisari">Candisari </option>
+            <option value="Gajahmungkur">Gajahmungkur</option>
+            <option value="Gayamsari">Gayamsari </option>
+            <option value="genuk">Genuk </option>
+            <option value="banyumanik">Banyumanik </option>
+            <option value="ngaliyan">Ngaliyan </option>
+            <option value="pedurungan">Pedurungan </option>
+            <option value="gpati">Gunungpati </option>
+            <option value="Mijen">Mijen </option>
+            <option value="tembalang">Tembalang </option>
+            <option value="tugu">Tugu </option>
+            <option value="smg b">Semarang Barat </option>
+            <option value="smg sel">Semarang Selatan</option>
+            <option value="smg ut">Semarang Utara </option>
+            <option value="smg tg">Semarang Tengah </option>
+            <option value="smg ti">Semarang Timur </option>
+    </tr>
+    <tr>
+        <td><center>11</center></td>
+        <td> <label for="fkota">Kota</label> </td>
+        <td> <select name="kota">
+            <option value="Magelang">Magelang </option>
+            <option value="Pekalongan">Pekalongan</option>
+            <option value="Salatiga">Salatiga </option>
+            <option value="Semarang">Semarang </option>
+            <option value="banyumanik">Banyumanik </option>
+            <option value="Surakarta">Surakarta </option>
+            <option value="tegal">Tegal </option>
+            <option value="gpati">Gunungpati </option>
+    </tr>
+    <tr>
+        <td><center>12</center></td>
+        <td> <label for="fptov">Provinsi</label> </td>
+        <td> <select name="prov">
+            <option value="DIY">DIY </option>
+            <option value="jatim">Jawa Timur</option>
+            <option value="jabar">Jawa Barat </option>
+            <option value="jateng">Jawa Tengah </option>
+            <option value="DKI Jakarta">DKI Jakarta </option>
+            <option value="kalbar">Kalimantan Barat </option>
+            <option value="kaltim">kalimantan Timur </option>
+            <option value="kalsel">Kalimantan Selatan </option>
+            <option value="kalteng">Kalimantan Tengah </option>
+            <option value="irian">Irian Jaya </option>
+            <option value="aceh">Aceh </option>
+            <option value="ntt">Nusa Tenggara Timur </option>
+            <option value="ntb">Nusa tenggara Barat</option>
+    </tr>
+    <tr>
+        <td><center>13</center></td>
+        <td> <label for="femail">Email Aktif</label> </td>
+        <td> <input type="email" name="newinput"placeholder="email@gmail.com"/></td>
+    </tr>
+    <tr>
+        <td><center><b>DATA ORANG TUA</b></center></td>   
+    </tr>
+    <tr>
+        <td><center>14</center></td>
+        <td> <label for="fkk">Nomor Kartu Keluarga</label> </td>
+        <td> <input type="text" id="kk" KK="fkk"><br> </td>
+    </tr>
+    <tr>
+        <td><center>15</center></td>
+        <td> <label for="fayah">Nama Ayah Kandung</label> </td>
+        <td> <input type="text" id="ayah" nama ayah="fayah"><br> </td>
+    </tr>
+    <tr>
+        <td><center>16</center></td>
+        <td> <label for="fagama">Agama</label> </td>
+        <td> <select name="agama">
+            <option value="islam">Islam </option>
+            <option value="kristen">Kristen</option>
+            <option value="katolik">Katolik </option>
+            <option value="hindu">Hindu </option>
+            <option value="buddha">Buddha </option>
+            <option value="konghucu">Konghucu </option>
+    </tr>
+    <tr>
+        <td><center>17</center></td>
+        <td> <label for="fpekerjaan">Pekerjaan</label> </td>
+        <td> <input type="text" id="pekerjaan" pekerjaan="fpekerjaan"><br> </td>
+    </tr>
+    <tr>
+        <td><center>18</center></td>
+        <td> <label for="fibu">Nama Ibu Kandung</label> </td>
+        <td> <input type="text" id="ibu" nama ibu="fibu"><br> </td>
+    </tr>
+    <tr>
+        <td><center>19</center></td>
+        <td> <label for="fagama">Agama</label> </td>
+        <td> <select name="agama">
+            <option value="islam">Islam </option>
+            <option value="kristen">Kristen</option>
+            <option value="katolik">Katolik </option>
+            <option value="hindu">Hindu </option>
+            <option value="buddha">Buddha </option>
+            <option value="konghucu">Konghucu </option>
+    </tr>
+    <tr>
+        <td><center>20</center></td>
+        <td> <label for="fpekerjaan">Pekerjaan</label> </td>
+        <td> <input type="text" id="pekerjaan" pekerjaan="fpekerjaan"><br> </td>
+    </tr>
+    <tr>
+        <td><center>21</center></td>
+        <td> <label for="alamat">Alamat Orang Tua</label> </td>
+        <td> <textarea name="alamat" cols="30" rows="5"> </textarea> </td>   
+    </tr>
+    <tr>
+        <td><center>22</center></td>
+        <td> <label for="fkel">Desa/Kel.</label> </td>
+        <td> <select name="kel">
+            <option value="pudakpayung">Pudak Payung </option>
+            <option value="gedawaang">Gedawang</option>
+            <option value="padangsari">Padangsari </option>
+            <option value="jabungan">Jabungan </option>
+            <option value="banyumanik">Banyumanik </option>
+            <option value="srondol">Srondol Wetan </option>
+            <option value="pedalangan">Pedalangan </option>
+            <option value="Sumurboto">Sumurboto </option>
+            <option value="Srondol Kulon">Srondol Kulon </option>
+            <option value="Tinjomoyo">Tinjomoyo </option>
+            <option value="Ngesrep">Ngesrep </option>
+    </tr>
+    <tr>
+        <td><center>23</center></td>
+        <td> <label for="fkec">Kecamatan</label> </td>
+        <td> <select name="kec">
+            <option value="Candisari">Candisari </option>
+            <option value="Gajahmungkur">Gajahmungkur</option>
+            <option value="Gayamsari">Gayamsari </option>
+            <option value="genuk">Genuk </option>
+            <option value="banyumanik">Banyumanik </option>
+            <option value="ngaliyan">Ngaliyan </option>
+            <option value="pedurungan">Pedurungan </option>
+            <option value="gpati">Gunungpati </option>
+            <option value="Mijen">Mijen </option>
+            <option value="tembalang">Tembalang </option>
+            <option value="tugu">Tugu </option>
+            <option value="smg b">Semarang Barat </option>
+            <option value="smg sel">Semarang Selatan</option>
+            <option value="smg ut">Semarang Utara </option>
+            <option value="smg tg">Semarang Tengah </option>
+            <option value="smg ti">Semarang Timur </option>
+    </tr>
+    <tr>
+        <td><center>24</center></td>
+        <td> <label for="fkota">Kota</label> </td>
+        <td> <select name="kota">
+            <option value="Magelang">Magelang </option>
+            <option value="Pekalongan">Pekalongan</option>
+            <option value="Salatiga">Salatiga </option>
+            <option value="Semarang">Semarang </option>
+            <option value="banyumanik">Banyumanik </option>
+            <option value="Surakarta">Surakarta </option>
+            <option value="tegal">Tegal </option>
+            <option value="gpati">Gunungpati </option>
+    </tr>
+    <tr>
+        <td><center>25</center></td>
+        <td> <label for="fptov">Provinsi</label> </td>
+        <td> <select name="prov">
+            <option value="DIY">DIY </option>
+            <option value="jatim">Jawa Timur</option>
+            <option value="jabar">Jawa Barat </option>
+            <option value="jateng">Jawa Tengah </option>
+            <option value="DKI Jakarta">DKI Jakarta </option>
+            <option value="kalbar">Kalimantan Barat </option>
+            <option value="kaltim">kalimantan Timur </option>
+            <option value="kalsel">Kalimantan Selatan </option>
+            <option value="kalteng">Kalimantan Tengah </option>
+            <option value="irian">Irian Jaya </option>
+            <option value="aceh">Aceh </option>
+            <option value="ntt">Nusa Tenggara Timur </option>
+            <option value="ntb">Nusa tenggara Barat</option>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
+
+    <br>
+
+    <br>
+
+    <br>
+        <input type = "Submit" value = "Submit" />
+    </form>
+</body>
+</html>

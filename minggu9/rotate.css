@@ -1,0 +1,47 @@
+body{
+	background: #8B39DD;
+	font-family: roboto;
+	text-align: center;
+}
+h1,h2{
+	color: #E2DDF1;
+}
+.ketengah{
+	margin: 10px auto;
+	width: 1150px;
+}
+.kotak1{
+	background: #96C04D;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	width: 150px;
+	height: 150px;
+}
+.kotak2{
+	background: #EBDA5F;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	width: 150px;
+	height: 150px;
+	 transform: rotate(130deg); /* Standard syntax */
+}
+.kotak3{
+	background: #5FEB67;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	width: 150px;
+	height: 150px;
+	 transform: rotate(90deg); /* Standard syntax */
+}
+.kotak4{
+	background: #DDC939;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	width: 150px;
+	height: 150px;
+	 transform: rotate(-20deg); /* Standard syntax */
+}

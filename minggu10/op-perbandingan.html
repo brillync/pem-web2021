@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<title>Operator Perbandingan</title>
+</head>
+<body>
+	<h4 style="color: green; text-align: center;">Ini adalah perbandingan antara 50 dan 48 </h5>
+
+	 <script>
+		 var aku = 50;
+		 var kamu = 48;
+
+		 // sama dengan
+		 var hasil = aku == kamu;
+		 document.write(`${aku} == ${kamu} hasilnya ${hasil}<br/><br/>`);
+		 
+		 // lebih besar
+		 var hasil = aku > kamu;
+		 document.write(`${aku} > ${kamu} = ${hasil} ,benar karena 50 lebih besar dari 48. <br/><br/>`);
+		 
+		 // lebih besar samadengan
+		 var hasil = aku >= kamu;
+		 document.write(`${aku} >= ${kamu} = ${hasil} ,benar karena 50 lebih basar sama dengan 48.  <br/><br/>`);
+		 
+		 // lebih kecil
+		 var hasil = aku < kamu;
+		 document.write(`${aku} < ${kamu} = ${hasil} ,salah karena 48 lebih kecil dari 50. <br/><br/>`);
+		 
+		 // lebih kecil samadengan
+		 var hasil = aku <= kamu;
+		 document.write(`${aku} <= ${kamu} = ${hasil} , salah karena 48 lebih kecil sama dengan 50. <br/><br/>`);
+		 
+		 // tidak samadengan
+		 var hasil = aku != kamu;
+		 document.write(`${aku} != ${kamu} = ${hasil}, benar karena 50 tidak sama dengan 48. <br/><br/>`);
+ 	</script>
+</body>
+</html>

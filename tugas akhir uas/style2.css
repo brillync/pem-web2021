@@ -1,0 +1,24 @@
+.animal-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animal{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.animal img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.animal p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
